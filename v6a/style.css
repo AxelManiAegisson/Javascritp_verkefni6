@@ -1,0 +1,44 @@
+body{
+	padding-top: 10px;
+}
+
+div{
+	width: 300px;	
+	margin: auto;
+	justify-content: center;
+
+}
+/*Filter */
+#price-range {
+	width: 370px;
+	margin: 10px auto 30px auto;
+	text-align: center;
+	font-weight: bold;}
+#value-min, #value-max {
+	width: 100px; 
+	border: none; 	
+	background-color: white;
+	font-family: 'Karla', sans-serif;}
+
+/*Taflan*/
+table {
+	margin: 0 auto;
+	width: 780px;}
+table#rates	{width: 380px;}
+th, td {
+	border-radius: 3px;
+	color: #333;
+	padding: 7px 10px 5px 10px;
+	min-width: 9em;
+	text-align: left;}
+th {
+	background-color: #d7d7d7;
+	font-weight: bold;
+	text-transform: uppercase;}
+td {
+	background-color: #fff;}
+table.sortable th:hover {
+	cursor: pointer;}
+th.ascending, th.descending, table.sortable th:hover {
+	background-color: #00cccc;
+	color: #fff;}
